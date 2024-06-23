@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./respomsive.css">
+  <link rel="stylesheet" href="./rough.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="firstpage">
+    <nav>
+      <div class="logo">
+        <h1>Logo</h1>
+      </div>
+      <ul id="menuList">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">About</a></li>
+        <li><a href="#section3">Why Choose Us</a></li>
+        <li><a href="#section4">Team</a></li>
+        <li><a href="#section5">Contact</a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+    <div class="main1" id="section1">
+      <h6>WELCOME TO DIGITAL STARTUP AGENCY</h6>
+      <h1>BEST DIGITAL TECHNOLOGY <br> AGENCY</h1>
+      <button type="button">Read More</button>
+    </div>
+  </div>
+  <div class="secondpage" id="section2">
+    <div class="abouttitle">
+      <h6>About Us</h6>
+      <p>We're Delivering Only<br>
+        Exceptional Quality Work</p>
+    </div>
+    <div class="container">
+      <div class="left">
+        <img src="./images/image2.jpg">
+      </div>
+      <div class="right">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, nam, sit hic vel fugit nihil deleniti
+          nobis dicta praesentium <br><br>recusandae in architecto ipsam aperiam eius, totam placeat cum cupiditate quod
+          voluptas quas natus itaque optio obcaecati accusamus! Soluta ?</p>
+        <br>
+        <br>
+        <a href="">Read More</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="forthpage">
+
+    <div class="container">
+      <div class="left">
+        <img src="./images/image3.jpg">
+      </div>
+      <div class="right">
+        <div class="aboutourcompanytitle">
+          <h6>About Our Company</h6>
+          <p>Your Success Is<br>
+            Our Mission</p>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, nam, sit hic vel fugit nihil deleniti
+          nobis dicta praesentium <br><br>recusandae in architecto ipsam aperiam eius, totam placeat cum cupiditate
+          quod
+          voluptas quas natus itaque optio obcaecati accusamus! Soluta ?</p>
+        <button type="button">Read More</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="thirdpage" id="section3">
+    <div class="container">
+      <div class="left">
+        <img src="./images/image4.jpg">
+      </div>
+      <div class="right">
+        <div class="whychooseustitle">
+          <h6>Why Choose Us</h6>
+          <p>Benefits Of Choosing<br>
+            Our Agency</p>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, nam, sit hic vel fugit nihil deleniti
+          nobis dicta praesentium <br><br>recusandae in architecto ipsam aperiam eius, totam placeat cum cupiditate quod
+          voluptas quas natus itaque optio obcaecati accusamus! Soluta ?</p>
+        <br>
+
+        <a href="">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="fifthpage" id="section4">
+    <div class="ourteamtitle">
+      <h6>Our Team</h6>
+      <p>Meet Our Team</p>
+    </div>
+    <div class="container">
+      <div class="member">
+        <img src="./images/member1.png" alt="Member 1">
+        <div class="name">John Doe</div>
+        <div class="post">Software Engineer</div>
+      </div>
+      <div class="member">
+        <img src="./images/member2.png" alt="Member 2">
+        <div class="name">Jane Smith</div>
+        <div class="post">Project Manager</div>
+      </div>
+      <div class="member">
+        <img src="./images/member3.png" alt="Member 3">
+        <div class="name">Emily Johnson</div>
+        <div class="post">UX Designer</div>
+      </div>
+      <div class="member">
+        <img src="./images/member4.png" alt="Member 4">
+        <div class="name">Michael Brown</div>
+        <div class="post">Data Analyst</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="seventhpage" id="section5">
+
+    <div class="contact-container">
+      <div class="left">
+        <h2>Call Us</h2>
+        <div class="info">
+          <strong>Phone Number:</strong>
+          <p>+123 456 7890</p>
+        </div>
+        <div class="info">
+          <strong>Location:</strong>
+          <p>123 Main Street, Anytown, USA</p>
+        </div>
+        <div class="info">
+          <strong>Business Hours:</strong>
+          <p>Mon - Fri: 9 AM - 6 PM</p>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Ask Anything</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="sixthpage">
+    <footer class="footer">
+      <div class="footer-column">
+        <img src="./images/logo.png" alt="Company Logo" class="footer-logo">
+      </div>
+
+      <div class="footer-column">
+        <h3>Address</h3>
+        <p>1234 Street Name</p>
+        <p>City, State, 56789</p>
+        <p>Country</p>
+      </div>
+      <div class="footer-column">
+        <h3>Additional Information</h3>
+        <p>About Us</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </div>
+
+    </footer>
+  </div>
+
+
+
+
+  <script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu() {
+      if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "300px";
+      }
+      else {
+        menuList.style.maxHeight = "0px";
+      }
+    }
+
+  </script>
+  <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

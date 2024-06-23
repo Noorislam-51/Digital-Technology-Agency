@@ -1,0 +1,171 @@
+@media (max-width:600px) {
+
+  /* navbar' */
+  /* navbar' */
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: #004274;
+    gap: 0;
+    overflow: hidden;
+    z-index: 100;
+  }
+
+  nav ul li {
+    padding: 20px;
+    padding-top: 20px;
+
+  }
+
+  nav ul li a {
+    color: white;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    transition: all 0.5s;
+  }
+
+  /* main firstpage */
+
+  .firstpage .main1 {
+    height: 50vh;
+    font-size: 3vw;
+  }
+
+  .firstpage .main1 button {
+    font-size: 3vh;
+  }
+
+
+
+  /* secondpage */
+
+  .secondpage .abouttitle {
+    margin-left: 30px;
+
+  }
+
+  .secondpage .abouttitle p {
+    font-size: 1.5rem;
+  }
+
+  .secondpage .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .secondpage .container .left img {
+    width: 250px;
+
+  }
+
+  .secondpage .container .right p,
+  a,
+  img {
+    margin-left: 30px;
+
+  }
+
+  /* secondpage */
+
+  /* .thirdpage */
+  .thirdpage .container {
+    display: flex;
+    margin: 0px;
+    margin-left: 30px;
+  }
+
+
+  .thirdpage .container .right {
+    margin-top: -70px;
+  }
+
+  .thirdpage .container .right .whychooseustitle p {
+    /* width: 500px; */
+    font-size: 1.5rem;
+
+  }
+
+
+  .thirdpage .container .right p,
+  a {
+    float: left;
+    width: 300px;
+
+
+  }
+
+  .thirdpage .container .right a {
+
+    margin-left: revert-layer;
+    padding-top: 13px;
+  }
+
+  /* .thirdpage */
+
+  /* forthpage */
+  .forthpage .container {
+    display: flex;
+    margin: 0px;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+
+
+  .forthpage .container .right {
+    margin-top: -70px;
+  }
+
+  .forthpage .container .right .aboutourcompanytitle p {
+    /* width: 500px; */
+    font-size: 1.5rem;
+
+  }
+
+  .forthpage .container .right p,
+  a {
+    float: left;
+    width: 300px;
+
+  }
+
+
+  /* fifthpage */
+
+  .fifthpage .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .ourteamtitle p {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .ourteamtitle {
+    padding-bottom: 0px;
+  }
+
+  .member {
+    width: 150px;
+  }
+
+  .member img {
+    padding-top: 10px;
+    height: auto;
+    margin-left: revert;
+  }
+}

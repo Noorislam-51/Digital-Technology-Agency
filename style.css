@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+nav {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  position: relative;
+  height: 70px;
+  
+}
+
+.logo {
+  color: #0c0c0c;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon i {
+  color: #0c0c0c;
+  font-size: 30px;
+}
+
+/* NAVBAR */
+
+
+/* main firstpage */
+
+.firstpage .main1 {
+  height: 75vh;
+  background-image: url(./images/image1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 10vh;
+  font-size: 2vw;
+  color: white;
+  position: relative;
+  isolation: isolate;
+
+}
+
+.firstpage .main1::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: blue;
+  opacity: .40;
+}
+
+.firstpage .main1 button {
+  border: none;
+  color: rgb(8, 31, 244);
+  padding: 12px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin-top: 5vh;
+  font-weight: bold;
+  background-color: white;
+ }
+
+/* main firstpage */
+
+
+/* secondpage */
+
+.secondpage {
+  padding: 10vh 0vh;
+}
+
+.secondpage .container {
+  display: flex;
+  justify-content: center;
+  margin: 0vh 40vh;
+  gap: 3vw;
+
+}
+
+.secondpage .abouttitle {
+  margin-left: 40vh;
+  font-size: 2rem;
+  padding-bottom: 1.5%;
+}
+
+.secondpage .abouttitle p {
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+.secondpage .abouttitle h6 {
+  font-size: 0.8rem;
+
+}
+
+.secondpage .container .left img {
+  width: 35vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secondpage .container .right p {
+  font-size: 1.1rem;
+}
+
+.secondpage .container .right a {
+  font-style: none;
+  color: rgb(21, 17, 251);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* label */
+.label{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(62, 62, 239);
+  padding: 2rem;
+  color: white;
+  font-weight: bold;
+}
+/* thirdpage */
+
+
+.thirdpage {
+  padding: 10vh 0vh;
+}
+
+.thirdpage .container {
+  display: flex;
+  justify-content: center;
+  margin: 0vh 40vh;
+  gap: 3vw;
+}
+
+.thirdpage .container .left img {
+  height: 35vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thirdpage .container .right .whychooseustitle {
+  padding-top: 10vh;
+  font-size: 2rem;
+  padding-bottom: 1.5%;
+}
+
+.thirdpage .container .right .whychooseustitle p {
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+.thirdpage .container .right .whychooseustitle h6 {
+  font-size: 0.8rem;
+}
+
+.thirdpage .container .right a {
+  font-style: none;
+  color: rgb(21, 17, 251);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* forthpage */
+
+.forthpage {
+  padding: 10vh 0vh;
+}
+
+.forthpage .container {
+  display: flex;
+  justify-content: center;
+  margin: 0vh 40vh;
+  gap: 3vw;
+}
+
+.forthpage .container .left img {
+  height: 25vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.forthpage .container .right .aboutourcompanytitle {
+  padding-top: 3vh;
+  font-size: 2rem;
+  padding-bottom: 1.5%;
+}
+
+
+.forthpage .container .right .aboutourcompanytitle p {
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+.forthpage .container .right .aboutourcompanytitle h6 {
+  font-size: 0.8rem;
+}
+
+.forthpage .container .right button {
+  background-color: rgb(8, 31, 244);
+  border: none;
+  color: rgb(254, 255, 255);
+  padding: 12px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin-top: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.abouttitle h6,
+.whychooseustitle h6,
+.aboutourcompanytitle h6,
+.ourteamtitle h6 {
+  color: blue;
+
+}
+
+/* fifth */
+
+.fifthpage {
+  padding: 10vh 0vh;
+}
+
+.ourteamtitle {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.ourteamtitle h6 {
+  font-size: 0.8rem;
+}
+
+.ourteamtitle p {
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+
+.fifthpage .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member {
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.member img:hover{
+  box-shadow: 0 4px 8px 0 rgba(105, 44, 228, 0.2), 0 6px 20px 0 rgba(46, 44, 44, 0.19);
+  
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.post {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+
+
+.seventhpage{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:rgb(231, 230, 229);
+  
+}
+.contact-container {
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-container .left h2, .right h2{
+color: blue;
+}
+.contact-container .left, .contact-container .right {
+  flex: 1;
+  margin: 50px;
+ 
+}
+
+.contact-container .right {
+  padding-left: 20px;
+}
+h2 {
+  margin-top: 0;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+textarea {
+  resize: vertical;
+  
+}
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+.info {
+  margin: 20px 0;
+}
+
+
+/* footer */
+/* footer */
+/* footer */
+.sixthpage {
+  background-color: #181616;
+}
+
+.footer {
+
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 0vh 25vh;
+  padding-top: 5vh;
+  padding-bottom: 25vh;
+  flex-wrap: wrap;
+}
+.footer .responsive{
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-logo {
+  width: 150px;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer p,
+.footer a {
+  font-size: 14px;
+  color: #ddd;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer a:hover {
+  color: #fff;
+}
