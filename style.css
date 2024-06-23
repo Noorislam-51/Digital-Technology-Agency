@@ -207,6 +207,7 @@ nav ul li a:hover {
 .forthpage .container {
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
   margin: 0vh 40vh;
   gap: 3vw;
 }
