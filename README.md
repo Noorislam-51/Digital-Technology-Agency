@@ -1,13 +1,8 @@
 # Digital-Technology-Agency Website
 
 This is a simple digital technology website made using HTML, CSS, and JavaScript. The website contains the following sections:
-##Preview
+
 ![Preview](https://github.com/Noorislam-51/Digital-Technology-Agency/assets/172569034/c1f499fd-e808-414f-aadb-d9a0ccff05e6)
-1. Home
-2. About
-3. Why Choose Us
-4. Team
-5. Contact
 
 ## Technologies Used
 
