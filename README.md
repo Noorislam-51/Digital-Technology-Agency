@@ -2,8 +2,10 @@
 
 This is a simple digital technology website made using HTML, CSS, and JavaScript. The website contains the following sections:
 
-# Preview:  https://noorislam-51.github.io/Digital-Technology-Agency/
-![Preview](https://github.com/Noorislam-51/Digital-Technology-Agency/assets/172569034/c1f499fd-e808-414f-aadb-d9a0ccff05e6)
+# Preview:  
+https://noorislam-51.github.io/Digital-Technology-Agency/
+![Preview](
+https://github.com/Noorislam-51/Digital-Technology-Agency/assets/172569034/c1f499fd-e808-414f-aadb-d9a0ccff05e6)
 
 ## Technologies Used
 
