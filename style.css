@@ -11,7 +11,7 @@ nav {
   padding: 10px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background: transparent;
   position: relative;
   height: 70px;

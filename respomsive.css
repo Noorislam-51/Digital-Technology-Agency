@@ -1,10 +1,7 @@
 @media (max-width:768px) {
 
   /* navbar' */
-  
-    /* Fix overflow by limiting width and ensuring no negative margins */
-    
-  
+  /* navbar' */
   nav ul {
     position: absolute;
     top: 70px;
@@ -145,7 +142,7 @@
 
   .forthpage .container .right p {
     float: left;
-    width: 350px;
+    width: 400px;
   }
 
   .forthpage .container .left {
@@ -225,6 +222,6 @@
   .footer p,
   .footer a {
     font-size: 12px;
-    padding: 3%;
+    padding: 4%;
   }
 }
