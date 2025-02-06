@@ -1,7 +1,10 @@
-@media (max-width:600px) {
+@media (max-width:768px) {
 
   /* navbar' */
-  /* navbar' */
+  
+    /* Fix overflow by limiting width and ensuring no negative margins */
+    
+  
   nav ul {
     position: absolute;
     top: 70px;
@@ -50,21 +53,31 @@
 
   .secondpage .abouttitle {
     margin-left: 30px;
+    margin-right: 30px;
 
   }
 
   .secondpage .abouttitle p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+
+  .secondpage .container .right p {
+    font-size: 1.0rem;
+  }
+
+  .secondpage .container .right {
+    margin-right: 30px;
+  }
+
 
   .secondpage .container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: 0px;
   }
 
   .secondpage .container .left img {
-    width: 250px;
+    width: 280px;
 
   }
 
@@ -90,8 +103,8 @@
   }
 
   .thirdpage .container .right .whychooseustitle p {
-    /* width: 500px; */
-    font-size: 1.5rem;
+    width: auto;
+    font-size: 1.2rem;
 
   }
 
@@ -99,9 +112,15 @@
   .thirdpage .container .right p,
   a {
     float: left;
-    width: 300px;
+    margin-right: 30px;
 
 
+  }
+
+  .thirdpage .container .left img {
+    height: 35vw;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .thirdpage .container .right a {
@@ -113,38 +132,49 @@
   /* .thirdpage */
 
   /* forthpage */
+
   .forthpage .container {
-    display: flex;
-    margin: 0px;
-    margin-left: 30px;
-    padding-top: 30px;
+    flex-direction: row-reverse;
   }
 
+  .forthpage .container .left img {
+    height: 27vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-top: -25px; */
+  }
+
+  .forthpage .container .right p {
+    float: left;
+    width: 350px;
+  }
+
+  .forthpage .container .left {
+    margin-left: -30px;
+  }
 
   .forthpage .container .right {
     margin-top: -70px;
+    /* margin-left: -70px; */
   }
 
   .forthpage .container .right .aboutourcompanytitle p {
     /* width: 500px; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
   }
 
-  .forthpage .container .right p,
-  a {
-    float: left;
-    width: 300px;
-
+  .forthpage .container .right {
+    flex-direction: column;
   }
+
+
 
 
   /* fifthpage */
 
   .fifthpage .container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
     justify-content: center;
     align-items: center;
 
@@ -167,5 +197,34 @@
     padding-top: 10px;
     height: auto;
     margin-left: revert;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0;
+  }
+
+  .footer-column {
+    text-align: center;
+    margin-bottom: 20px;
+    min-width: 100%;
+  }
+
+  .footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+
+
+
+  .footer p,
+  .footer a {
+    font-size: 12px;
+    padding: 3%;
   }
 }
