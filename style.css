@@ -51,6 +51,7 @@ nav ul li a:hover {
   font-size: 30px;
 }
 
+
 /* NAVBAR */
 
 
@@ -417,14 +418,18 @@ button:hover {
   margin-bottom: 10px;
 }
 
+
 .footer p,
 .footer a {
   font-size: 14px;
   color: #ddd;
   text-decoration: none;
   margin: 5px 0;
+  
 }
-
+.foot{
+  display: flex;
+}
 .footer a:hover {
   color: #fff;
 }

@@ -207,7 +207,30 @@
     margin-bottom: 20px;
     min-width: 100%;
   }
-
+  .footer-column.icon {
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .footer-column.icon h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-column.icon a {
+    margin: 0 14px;
+  }
+  
+  .social-icon {
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: #fcfcfc; /* Icon color */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #007bff; /* Hover color */
+  }
   .footer-logo {
     width: 120px;
     margin-bottom: 20px;
@@ -224,6 +247,10 @@
     font-size: 12px;
     padding: 4%;
   }
+  .foot{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px) {
@@ -234,23 +261,23 @@
 
   nav {
     padding: 10px 30px;
-
-    /* height: 70px; */
   }
 
-  nav ul {
-    display: none;
-    flex-direction: column;
+  #menuList {
+    overflow: hidden;
+    max-height: 0px; /* Hide initially */
+    background-color: #004274;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.5s ease-in-out; /* Smooth open/close */
   }
 
-  nav ul.show {
-    display: flex;
+  nav ul li {
+    text-align: center;
+    padding: 15px 0;
   }
 
 
@@ -287,7 +314,9 @@
   .firstpage .main1 button {
     font-size: 1rem;
   }
-
+.secondpage{
+  margin-left: -15px;
+}
   .secondpage .abouttitle {
     text-align: center;
     margin: 0 auto;
@@ -374,9 +403,17 @@
     align-items: center;
     padding: 10px;
   }
-
+   
+  .footer-column.icon a {
+    margin: 0 11px;
+  }
+ 
   .footer-column {
     margin: 15px 0;
     text-align: center;
+  }
+  .foot{
+    display: flex;
+    flex-direction: column;
   }
 }
